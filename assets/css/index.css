@@ -1,0 +1,66 @@
+/*
+Teal color: #4aaaa5
+grey color: #cccccc main header border color
+Main content backgroud   : #ffffff
+Main content boarder colorer: #dddddd
+*/
+
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.relative {
+  position: relative;
+
+}
+
+div.absolute {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  top: 8px;
+  bottom:497px ;
+  left: 155px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+h1{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+
+  background-color: #ececec;
+
+}
+
+header {
+  border-bottom:  2px solid;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #cccccc;
+  text-align: right;
+  padding: 28px 155px 33px 150px;
+  font-size: 120%;
+  margin: 0;
+
+}
+
+footer{
+
+
+
+}
+
+#box{
+
+}
