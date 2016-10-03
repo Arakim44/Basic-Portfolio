@@ -14,6 +14,13 @@ Main content boarder colorer: #dddddd
   text-align: center;
 }
 
+/**I thought this would work for background.. but I guess not yet**/
+/*body{
+  background-image: url(square_bg.png);
+  background-repeat:repeat;
+
+}*/
+
 h1,h2{
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -27,8 +34,12 @@ div.relative {
   border-color: #cccccc;
   background-color: #ffffff;
   padding: 28px 155px 33px 150px;
-
-
+  width: 1267px;
+  /*height: 92px;*/
+  left: 0px;
+  top: 0px;
+  right: 1278px;
+  bottom: 92px;
 }
 
 
@@ -37,41 +48,62 @@ div.absolute {
   position: absolute;
   background-color: #4aaaa5;
   color: #ffffff;
-  top: 8px;
-  bottom:497px ;
-  left: 155px;
+  width: 250px;
+  height: 85px;
+  top: 7px;
+  bottom:92px;
+  left: 156px;
+  right: 406px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 div.body {
-  margin: 40px 150px  0px 108px;
+  margin: 40px 190px  0px 93px;
+  width: 1020px;
 
 }
 
 div.about {
   display: inline-block;
-  width: 63%;
+  width: 650px;
   background-color: #ffffff;
   border: solid;
   border-color: #e1e1e1;
   padding: 15px 30px 30px 30px;
-  margin: 0;
+
 
 
 }
 
 div.connect {
   display: inline-block;
-  width: 30%;
+  width: 250px;
   background-color: #ffffff;
   float: right;
   color:  #4aaaa5;
   border: solid;
   border-color: #e1e1e1;
 
+
 }
 
+div.footer{
+  position: absolute;
+  display: block;
+  border-top:  10px solid;
+  border-color: #4aaaa5;
+  background-color: #666666;
+  color: #cccccc;
+  /*padding: 28px 155px 33px 150px;*/
+  /*width: 1267px;*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-size: 70%;
+}
 
 #araKim{
   color: #ffffff;
