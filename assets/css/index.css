@@ -88,22 +88,51 @@ div.connect {
 
 }
 
+p.clear{
+  clear: right;
+  font-size: 120%;
+}
+
+#pStyle {
+  color: #cccccc;
+  text-align: left;
+
+}
+
 div.footer{
+  border-top:  8px solid;
+  border-color: #4aaaa5;
+  background-color: #666666;
+  color: #cccccc;
+  clear: both;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 70%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1267px;
+}
+
+/*div.footer{
   position: absolute;
   display: block;
   border-top:  10px solid;
   border-color: #4aaaa5;
   background-color: #666666;
-  color: #cccccc;
+  color: #cccccc;*/
   /*padding: 28px 155px 33px 150px;*/
   /*width: 1267px;*/
-  left: 0;
+  /*left: 0;
   right: 0;
   bottom: 0;
   padding-top: 35px;
   padding-bottom: 35px;
   font-size: 70%;
 }
+*/
+
 
 #araKim{
   color: #ffffff;
@@ -119,6 +148,12 @@ div.footer{
 
 }
 
+#bio-image{
+  float: left;
+  width: 220px;
+  margin: 6px 20px 10px 0px;
+  /*clear: right;*/
+}
 header {
   color: #cccccc;
   text-align: right;
