@@ -16,7 +16,7 @@ Main content boarder colorer: #dddddd
 
 /**I thought this would work for background.. but I guess not yet**/
 body{
-  background-image: url("assets/images/footer_loduas.png");
+  background-image: url("../images/wall4.png");
   background-color: #cccccc;
 }
 
