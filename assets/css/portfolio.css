@@ -1,16 +1,19 @@
 
 
 div.img {
+  position: relative;
   display: inline;
   float: left;
   width: 283px;
  }
 
 img.left{
+
   margin-right: 20px;
   margin-top: 20px;
 }
 img.right{
+
   margin-left: 20px;
   margin-top: 20px;
 
@@ -23,7 +26,8 @@ div.abs {
   color: white;
   text-align: center;
   padding: 10px 0 10px 0;
-  top: 400px;
-  bottom: 400px;
-  width: 270px;
+  top: 240px;
+  bottom: 20px;
+  width: 283px;
+
 }*/
