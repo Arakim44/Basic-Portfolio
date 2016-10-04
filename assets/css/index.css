@@ -16,7 +16,7 @@ Main content boarder colorer: #dddddd
 
 /**I thought this would work for background.. but I guess not yet**/
 body{
-  background-image: url("../images/wall4.png");
+  background-image: url("../images/grey.png");
   background-color: #cccccc;
 }
 
@@ -66,11 +66,28 @@ div.relative {
   padding: 28px 155px 33px 150px;
   width: 1267px;
   /*height: 92px;*/
+  right: 0px;
   left: 0px;
-  top: 0px;
+  /*top: 0px;*/
   right: 1278px;
   bottom: 92px;
+  /*clear: both;*/
 }
+
+/*
+border-top:  8px solid;
+border-color: #4aaaa5;
+background-color: #666666;
+color: #cccccc;
+clear: both;
+margin-top: 40px;
+padding: 30px 0 30px 0;
+font-size: 70%;
+left: 0;
+right: 0;
+width: 1267px;
+position: absolute;*/
+
 
 
 
@@ -94,7 +111,7 @@ div.body {
 
 }
 
-div.about {
+div.box {
   display: inline-block;
   width: 650px;
   background-color: #ffffff;
@@ -114,7 +131,7 @@ div.connect {
   color:  #4aaaa5;
   border: solid;
   border-color: #e1e1e1;
-  padding: 20px 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
 }
 
 p.clear{
@@ -135,20 +152,14 @@ div.footer{
   color: #cccccc;
   clear: both;
   margin-top: 40px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0 30px 0;
   font-size: 70%;
   left: 0;
   right: 0;
-  bottom: 0;
   width: 1267px;
+  position: absolute;
 }
 
-/*div.footer{
-  position: absolute;
-  display: block;
-}
-*/
 
 img.connect{
   width: 60px;
@@ -161,10 +172,10 @@ img.connect{
   border-color: #cccccc;
 }
 
-#about {
+#box {
   text-align: left;
   color: #4aaaa5;
-  border-bottom: 2px solid;
+  border-bottom: 2.5px solid;
   border-color: #e1e1e1;
   padding-bottom: 20px;
 
@@ -183,7 +194,7 @@ img.connect{
   float: left;
   width: 220px;
   margin: 6px 20px 10px 0px;
-  border: solid 2px #cccccc;
+  /*border: solid 2px #cccccc;*/
   /*clear: right;*/
 }
 
