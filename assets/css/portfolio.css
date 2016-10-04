@@ -6,6 +6,9 @@ div.img {
   float: left;
   width: 283px;
  }
+br.cl {
+  clear: both;
+}
 
 img.left{
 
@@ -20,7 +23,7 @@ img.right{
 }
 
 
-div.abs {
+div.abLeft {
   position: absolute;
   background-color: #4aaaa5;
   color: white;
@@ -30,4 +33,16 @@ div.abs {
   bottom: 20px;
   width: 283px;
 
-}*/
+}
+
+div.abRight {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  top: 240px;
+  left:20px;
+  bottom: 20px;
+  width: 283px;
+}
