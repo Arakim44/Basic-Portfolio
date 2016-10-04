@@ -15,11 +15,11 @@ Main content boarder colorer: #dddddd
 }
 
 /**I thought this would work for background.. but I guess not yet**/
-/*body{
-  background-image: url(square_bg.png);
+body{
+  background-image: url("assets/images/footer_loduas.png");
   background-repeat:repeat;
-
-}*/
+  background-color: #cccccc;
+}
 
 h1,h2{
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -84,8 +84,7 @@ div.connect {
   color:  #4aaaa5;
   border: solid;
   border-color: #e1e1e1;
-
-
+  padding: 20px 20px 20px 20px;
 }
 
 p.clear{
@@ -118,21 +117,14 @@ div.footer{
 /*div.footer{
   position: absolute;
   display: block;
-  border-top:  10px solid;
-  border-color: #4aaaa5;
-  background-color: #666666;
-  color: #cccccc;*/
-  /*padding: 28px 155px 33px 150px;*/
-  /*width: 1267px;*/
-  /*left: 0;
-  right: 0;
-  bottom: 0;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  font-size: 70%;
 }
 */
 
+img.connect{
+  width: 60px;
+  display: inline-block;
+  margin: 0px 2px 0px 2px;
+}
 
 #araKim{
   color: #ffffff;
@@ -148,32 +140,27 @@ div.footer{
 
 }
 
+#connect{
+  /*text-align: left;*/
+  color: #4aaaa5;
+  border-bottom: 2px solid;
+  border-color: #e1e1e1;
+  padding-bottom: 20px;
+
+}
+
 #bio-image{
   float: left;
   width: 220px;
   margin: 6px 20px 10px 0px;
+  border: solid 2px #cccccc;
   /*clear: right;*/
 }
+
+
 header {
   color: #cccccc;
   text-align: right;
   font-size: 120%;
-
-}
-
-
-body {
-
-  background-color: #ececec;
-
-}
-
-footer{
-
-
-
-}
-
-#box{
 
 }
