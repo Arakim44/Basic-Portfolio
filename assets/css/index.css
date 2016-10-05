@@ -14,7 +14,6 @@ Main content boarder colorer: #dddddd
   text-align: center;
 }
 
-/**I thought this would work for background.. but I guess not yet**/
 body{
   background-image: url("../images/grey.png");
   background-color: #cccccc;
