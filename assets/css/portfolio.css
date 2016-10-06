@@ -34,7 +34,23 @@ div.abLeft {
   width: 283px;
 
 }
+img.left:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
 
+img.right:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+div.abLeft:hover{
+  background-color: #555;
+}
+
+div.abRight:hover{
+  background-color: #555;
+}
 div.abRight {
   position: absolute;
   background-color: #4aaaa5;
