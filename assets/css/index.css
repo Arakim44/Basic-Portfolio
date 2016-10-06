@@ -12,12 +12,17 @@ Main content boarder colorer: #dddddd
 * {
   box-sizing: border-box;
   text-align: center;
+  margin: 0;
 }
 
-body{
-  background-image: url("../images/grey.png");
+html,body{
+  background-image: url("../images/wall4.png");
   background-color: #cccccc;
+  height: 100%;
+  /*for sticky footer?*/
 }
+
+
 
 h1,h2{
   font-family: 'Georgia', Times, Times New Roman, serif;
@@ -30,16 +35,14 @@ header, p{
 ul{
   /*removes bullets from lists*/
   list-style-type: none;
-  margin: 0;
-  padding: 17px 0 17px;
+  padding: 17px 0px 17px;
   overflow: hidden;
 
   }
 
 li{
   float: right;
-  /*border-left: 2px solid #e1e1e1;*/
-  padding: 0 5px 0 5px;
+  /*padding: 0 5px 0 5px;*/
 }
 
 li:last-child{
@@ -50,9 +53,7 @@ li a{
   display: inline-block;
   color: #cccccc;
   text-align: center;
-  padding: 14px 16px;
-  /*padding-left: 10px;
-  padding-right: 10px;*/
+  padding: 14px 20px;
   text-decoration: none;
 }
 
@@ -66,14 +67,12 @@ div.relative {
   border-color: #cccccc;
   background-color: #ffffff;
   padding: 0px 155px 0px 150px;
-  width: 1267px;
-  /*height: 92px;*/
+  width: 1285px;
   right: 0px;
   left: 0px;
-  /*top: 0px;*/
   right: 1278px;
   bottom: 92px;
-  /*clear: both;*/
+
 }
 
 
@@ -83,13 +82,11 @@ div.absolute {
   background-color: #4aaaa5;
   color: #ffffff;
   width: 250px;
-  height: 85px;
-  top: 7px;
-  bottom:92px;
+  height: 84px;
+  top: 0px;
   left: 156px;
   right: 406px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 div.body {
@@ -111,7 +108,7 @@ div.box {
 }
 
 div.connect {
-  display: inline-block;
+  /*display: inline-block;*/
   width: 250px;
   background-color: #ffffff;
   float: right;
@@ -129,10 +126,22 @@ p.clear{
 #pStyle {
   color: #cccccc;
   text-align: left;
+  padding: 20px 0 20px;
 
 }
+/*.wrapper {
+  min-height: 100%;
+  height: auto; !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
 
-div.footer{
+.footer,.push {
+  height: 4em;
+  clear: both;
+}*/
+
+.footer{
   border-top:  8px solid;
   border-color: #4aaaa5;
   background-color: #666666;
@@ -144,7 +153,8 @@ div.footer{
   left: 0;
   right: 0;
   width: 1267px;
-  position: absolute;
+  /*position: absolute;*/
+  /*absolut is not a way to do footer*/
 }
 
 
@@ -158,6 +168,11 @@ img.connect:hover{
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
+
+div.pad{
+  padding-top:20px;
+}
+
 
 #araKim{
   color: #ffffff;
@@ -185,7 +200,7 @@ img.connect:hover{
 #bio-image{
   float: left;
   width: 220px;
-  margin: 6px 20px 10px 0px;
+  margin: 25px 20px 25px 0px;
   /*border: solid 2px #cccccc;*/
   /*clear: right;*/
 }
