@@ -64,17 +64,20 @@ li a{
   padding: 14px 20px;
   text-decoration: none;
   /*cool effect when you hover!!!*/
+
+}
+
+li a, img.connect {
   -webkit-transition: all .15s ease-out 0s;
   -moz-transition: all .15s ease-out 0s;
   transition: all .15s ease-out 0s;
 }
 
 
-
 li a:hover{
   background-color: #555;
   color: white;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
 }
 li a:active{
   background-color: #4aaaa5;

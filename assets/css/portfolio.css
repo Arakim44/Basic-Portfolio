@@ -1,3 +1,9 @@
+img.left, img.right, div.abLeft, div.abRight{
+  -webkit-transition: all .15s ease-out 0s;
+  -moz-transition: all .15s ease-out 0s;
+  transition: all .15s ease-out 0s;
+}
+
 
 
 div.img {
@@ -45,14 +51,18 @@ img.right:hover{
 }
 
 div.abLeft:hover{
-  border: 2px solid white;
+  /*border-radius: 15px;*/
+  /*border: 2px solid white;*/
+  /*background-color: #499;*/
 }
 div.abLeft:active{
   background-color: #555 ;
 }
 
 div.abRight:hover{
-  border: 2px solid white;
+  /*border: 2px solid white;*/
+  /*border-radius: 15px;*/
+  /*background-position: #499;*/
 }
 
 div.abRight:active{
