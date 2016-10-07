@@ -45,12 +45,20 @@ img.right:hover{
 }
 
 div.abLeft:hover{
-  background-color: #555;
+  border: 2px solid white;
+}
+div.abLeft:active{
+  background-color: #555 ;
 }
 
 div.abRight:hover{
+  border: 2px solid white;
+}
+
+div.abRight:active{
   background-color: #555;
 }
+
 div.abRight {
   position: absolute;
   background-color: #4aaaa5;
