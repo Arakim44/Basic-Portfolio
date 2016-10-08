@@ -38,6 +38,7 @@ div.abLeft {
   top: 240px;
   bottom: 20px;
   width: 283px;
+  font-family: 'Indie Flower', cursive;
 
 }
 img.left:hover{
@@ -51,18 +52,18 @@ img.right:hover{
 }
 
 div.abLeft:hover{
-  /*border-radius: 15px;*/
-  /*border: 2px solid white;*/
-  /*background-color: #499;*/
+  border-radius: 15px;
+  border: 2px solid white;
+  background-color: #499;
 }
 div.abLeft:active{
   background-color: #555 ;
 }
 
 div.abRight:hover{
-  /*border: 2px solid white;*/
-  /*border-radius: 15px;*/
-  /*background-position: #499;*/
+  border: 2px solid white;
+  border-radius: 15px;
+  background-position: #499;
 }
 
 div.abRight:active{
@@ -79,4 +80,5 @@ div.abRight {
   left:20px;
   bottom: 20px;
   width: 283px;
+  font-family: 'Indie Flower', cursive;
 }

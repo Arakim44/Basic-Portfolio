@@ -19,13 +19,15 @@ html,body{
   background-image: url("../images/wall4.png");
   background-color: #cccccc;
   height: 100%;
+  width: 100%;
   /*for sticky footer?*/
 }
 
 
 
 h1,h2{
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Georgia', Times, Times New Roman, serif;*/
   /*font-family: 'Indie Flower', cursive;*/
 }
 
@@ -39,6 +41,28 @@ ul, p{
   /*font-family: 'Rock Salt', cursive;*/
   /*font-family: 'Homemade Apple', cursive;*/
 }
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #4aaaa5;
+  background-color: transparent;
+  /*text-decoration: underline;*/
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  /*text-decoration: underline;*/
+}
+
 
 ul{
   /*removes bullets from lists*/
@@ -95,7 +119,7 @@ div.relative {
   border-color: #cccccc;
   background-color: #ffffff;
   padding: 0px 155px 0px 150px;
-  width: 1285px;
+  width: 100%;
   right: 0px;
   left: 0px;
   /*right: 1278px;*/
@@ -153,7 +177,7 @@ p.clear{
 }
 
 #pStyle {
-  color: #cccccc;
+  color: #cbb;
   text-align: left;
   padding: 20px 0 20px;
 
@@ -181,7 +205,7 @@ p.clear{
   font-size: 70%;
   left: 0;
   right: 0;
-  width: 1267px;
+  width: 100%;
   /*position: absolute;*/
   /*absolut is not a way to do footer*/
 }
